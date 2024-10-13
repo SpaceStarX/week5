@@ -1,4 +1,4 @@
-### 创建一个新的自定义 CRD（Group：aiops.geektime.com, Version: v1alpha1, Kind: AIOps），并使用 dynamicClient 获取该资源。
+### 创建一个新的自定义 CRD（Group：aiops.geektime.com, Version: v1alpha1, Kind: AIOps），并使用 dynamicClient 获取该资源
 
 ```
 kubectl apply -f crd.yaml
@@ -18,6 +18,7 @@ aiops-instance   20s
 
 ```
 go mod init task2
+go: creating new go.mod: module task2
 ```
 
 create and write main.go
