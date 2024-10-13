@@ -1,0 +1,8 @@
+apiVersion: aiops.geektime.com/v1alpha1
+kind: AIOps
+metadata:
+  name: aiops-instance
+  namespace: default
+spec:
+  openai_api_key: "sk-123456"
+  openai_api_base: "https://api.apiyi.com/v1"
